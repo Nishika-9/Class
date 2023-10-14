@@ -1,6 +1,6 @@
 Algorithm: 
 
-A) Class to calculate volume
+A) Class to calculate volume-
 
 Start
 Declare variables:
@@ -19,7 +19,7 @@ Call the calculateVolume method of cube1 to calculate the volume and store the r
 Display "The volume of the cube is: " followed by the value of vol.
 End
 
-B) Constructor & Destructor
+B) Constructor & Destructor-
 
 Start
 Include the necessary header files.
@@ -43,8 +43,24 @@ f. Calculate and display the updated volume of cube1 using the vol` method.
 g. Print a newline for formatting.
 End
 
-C) Date Validation
+C) Date Validation-
 
+Start
+Include the necessary header files.
+Define a class validity.
+a. Declare public member variables: dd (day), mm (month), yyyy (year).
+b. Declare a public member function date to take input for the date in the format DD/MM/YYYY.
+i. Prompt the user to enter the date.
+c. Declare a public member function check to check the validity of the date.
+i. Check if the month is within the range [1, 12].
+ii. Check if the day is valid for the given month based on the number of days in that month.
+iii. Consider leap years for February.
+iv. Display "Date is valid" if all checks pass; otherwise, display "Date is invalid".
+In the main function:
+a. Create an instance of the validity class called verify.
+b. Call the date method to input a date.
+c. Call the check method to verify the validity of the entered date.
+End
 
-
+D) Leap Year-
 
