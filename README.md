@@ -21,9 +21,9 @@ A) Class to calculate volume-
 
 B) Constructor & Destructor-
 
-Start
-Include the necessary header files.
-Define a class Cube.
+1. Start
+2. Include the necessary header files.
+3. Define a class Cube.
 a. Declare private member variables: height, length, and width.
 b. Declare a public constructor to initialize the cube's dimensions.
 i. Prompt the user to enter the height, width, and length.
@@ -41,13 +41,13 @@ d. Print a newline for formatting.
 e. Call the setheight method to update the height of cube1.
 f. Calculate and display the updated volume of cube1 using the vol` method.
 g. Print a newline for formatting.
-End
+4.End
 
 C) Date Validation-
 
-Start
-Include the necessary header files.
-Define a class validity.
+1. Start
+2. Include the necessary header files.
+3.Define a class validity.
 a. Declare public member variables: dd (day), mm (month), yyyy (year).
 b. Declare a public member function date to take input for the date in the format DD/MM/YYYY.
 i. Prompt the user to enter the date.
@@ -60,21 +60,21 @@ In the main function:
 a. Create an instance of the validity class called verify.
 b. Call the date method to input a date.
 c. Call the check method to verify the validity of the entered date.
-End
+4. End
 
 D) Leap Year-
 
-Start
-Include the necessary header files.
-Define a class calendar.
+1. Start
+2.Include the necessary header files.
+3. Define a class calendar.
 a. Declare public member variables: dd (day), mm (month), yyyy (year), yy (unused variable).
 b. Declare a public member function fun to take input for the date, month, and year.
 i. Prompt the user to enter the day, month, and year.
 c. Declare a public member function result to check if the entered year is a leap year.
 i. Check if the year is divisible by 4 and not divisible by 100, or if it's divisible by 400.
 ii. Display "It is a leap year" if it's a leap year, or "It is not a leap year" if it's not.
-In the main function:
+4. In the main function:
 a. Create an instance of the calendar class called leap_year.
 b. Call the fun method to input the date, month, and year.
 c. Call the result method to determine if the entered year is a leap year.
-End
+5. End
